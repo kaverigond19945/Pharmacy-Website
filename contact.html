@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image:url(images/images15.png) ;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav{
+            background-color: aqua;
+        }
+        .head{
+            text-align: center;
+            background-color: blueviolet;
+        }
+        .container{
+            border-radius: 2px ;
+            padding: 10px;
+            background-image:url(images/images10.jpg) ;
+            background-repeat:no-repeat ;
+            background-size: cover;
+            size: cover;
+        }
+        .row{
+            text-align: center;
+            height: 100%;
+        }
+        input[type=submit]{
+            background-color: darkgreen;
+            color: white;
+        }
+        input[type=text], textarea {
+            width: 300px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 300px;
+            background-color:#ccc;
+        }
+        label{
+            color: white;
+        }
+        .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    background-color: yellowgreen;
+    text-align: center;
+}
+.nav-links ul li a{
+    color: rgb(15, 2, 2);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.nav-links ul li::after{
+    content:"" ;
+    width: 0% ;
+    height: 2px;
+    margin: auto;
+    background-color: chartreuse;
+    display: block;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+     width: 100%;
+}
+
+       
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <ul>
+            <li><a href="order.html">ORDER MEDICINES</a></li>
+            <li><a href="lab.html">LAB TEST</a></li>
+            <li><a href="health.html">HEALTHCARE MEDICINES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <nav>
+        <div class="main">
+            <h1>CONTACT US</h1>
+            <div>Contact us:+9156845476(What up)also. Email us: xyz@gmail.com</div>
+        </div>
+    </nav>
+    <div class="head">
+        <h1>CONTACT SECTION</h1>
+        <P>Waiting for your fedback</P>
+    </div>
+    <div class="container">
+        <div class="row">
+            <form action="action.php">
+                <label for="fname">First Name:-</label><br>
+                <input type="text" name="firstname" placeholder="your name.."><br><br>
+                <label for="lname">Last Name:-</label><br>
+                <input type="text" name="lastname"placeholder="last name.."><br><br>
+                <label for="address">Address:-</label><br>
+                <input type="text" name="address" placeholder="address"><br><br>
+                <label for="comment">Comments:-</label><br>
+                <textarea type="text" name="comment"placeholder="your feedback.."></textarea><br><br>
+                <input type="submit"  value="submit"><br>
+
+            </form>
+
+        </div>
+
+    </div>
+  
+</body>
+<section>
+    <h2>More About Us</h2>
+
+        <div class="row">
+            <div class="column" >
+                <h2>Our Services</h2>
+                <p> <a href="https://pharmeasy.in/diagnostics"> Lab Test</a></p>
+                <P><a href="https://pharmeasy.in/health-care"> Health Cares</a></p>
+                <p><a href="https://pharmeasy.in/online-medicine-order">Order Medicines</a></p>  
+            </div>
+            <div class="column">
+                <h2>Featured Categories</h2>
+
+                <P><a href="https://pharmeasy.in/health-care/covid-essentials-109">Covid Essentials</a></p>
+                <P><a href="https://pharmeasy.in/health-care/healthcare-devices-717">Healthcare Devices</a></p>
+                <P><a href="https://pharmeasy.in/health-care/health-food-and-drinks-648">Health Food and Drinks</a></p>
+                <P><a href="https://pharmeasy.in/health-care/mother-and-baby-care-838">Mother and Baby Care</a></p>
+                <P><a href="https://pharmeasy.in/health-care/fitness-supplements-623">Fitness & Supplements</a></p>
+                <P><a href="https://pharmeasy.in/health-care/diabetic-care-145">Diabetic Care</a></p>
+                <P><a href="https://pharmeasy.in/health-care/health-condition-693">Health Condition</a></p>
+            </div>
+            <div class="column" >
+                <h2>Need Help</h2>
+                <p><a href="https://pharmeasy.in/online-medicine-order/browse">Browse all Medicines</a></p>
+                <p><a href="https://pharmeasy.in/terms-and-conditions">Terma and Conditions</a></p>
+                <p><a href="https://pharmeasy.in/privacy-policy">Privacy Policy</a></p>
+                <p><a href="https://pharmeasy.in/return-policy">Return Policy</a></p>
+                <p><a href="https://pharmeasy.in/help">FAQS</a></p>
+            </div>
+        </div>
+    
+    
+</section>
+</html>

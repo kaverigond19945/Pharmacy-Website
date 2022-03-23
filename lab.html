@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab test</title>
+    <style>
+         .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    background-color: yellowgreen;
+    text-align: center;
+}
+.nav-links ul li a{
+    color: rgb(15, 2, 2);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.nav-links ul li::after{
+    content:"" ;
+    width: 0% ;
+    height: 2px;
+    margin: auto;
+    background-color: chartreuse;
+    display: block;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+     width: 100%;
+}
+        body{
+            background-image: url(images/images1.png);
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        h1{
+            color: darkblue;
+           
+        }
+       .flexbox-container{
+             display: flex;
+             justify-content: center;
+       } 
+       .flexbox1{
+           width: 200px;
+           margin: 10px;
+           border: 1px solid black;
+           background-image: url(images/img10.png);
+           min-height: 100px;
+           text-align: center;
+           padding: 20px;
+           font-size: large;
+       }
+       .flexbox2{
+           width: 200px;
+           margin: 10px;
+           border: 1px solid black;
+           background-image: url(images/imge2.png);
+           min-height: 100px;
+           text-align: center;
+           padding: 20px;
+           font-size: large;
+       }
+       .flexbox3{
+           width: 200px;
+           margin: 10px;
+           border: 1px solid black;
+           background-image: url(images/img12.png);
+           min-height: 100px;
+           text-align: center;
+           padding: 20px;
+           font-size: large;  
+       }
+       .flexbox4{
+           width: 200px;
+           margin: 10px;
+           border: 1px solid black;
+           background-image: url(images/imge1.png);
+           min-height: 100px;
+           text-align: center;
+           padding: 20px;
+           font-size: large;     
+       }
+       h2{
+           text-align: center;
+           font-size: large;
+           background-color: rgb(32, 139, 0);
+       }
+        .box-container{
+            width: 100%;
+            height: 500px;
+            border: 2px solid black;
+            padding: 10px;
+             text-align: center;
+        }
+        .row{
+            float: left;
+            padding: 20px;
+        }
+        .column1{
+            width: 300px;
+            height: 300px;
+            border: 1px solid white;
+            text-align: center;
+            background-image: url(images/1.png);
+        }
+        .column2{
+            width: 300px;
+            height: 300px;
+            border: 1px solid white;
+            text-align: center;
+            background-image: url(images/2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .column3{
+            width: 300px;
+            height: 300px;
+            border: 1px solid white;
+            text-align: center;
+            background-image: url(images/3.png);
+            background-repeat:no-repeat ;
+            background-size: cover;
+        }
+        p{
+            font-style: oblique;
+            font-weight: bold;
+            font-size: x-large;
+            color: rgba(134, 12, 59, 0.486);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <ul>
+            <li><a href="order.html">ORDER MEDICINES</a></li>
+            <li><a href="lab.html">LAB TEST</a></li>
+            <li><a href="health.html">HEALTHCARE MEDICINES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <h1  style= text-align:center;>LAB TESTS</h1>
+    <Div class="flexbox-container">
+        <div class="flexbox1"> <br><b>All TESTS</b> </div>
+        <div class="flexbox2"> <br><b> HEALTH QUERY</b> </div>
+        <div class="flexbox3"> <br><b> DOCTOR'S PRESCRIPTION </b></div>
+        <div class="flexbox4"> <br><a href="order.html">BOOK Online</a></div>
+    </Div>
+          <h1 style= text-align:center;>Health Packages</h1>
+    <div class="box-container">
+        <div class="row">
+            <div class="column1"> <br> 
+                        <h2>Full Body Checkup</h2><br>
+                        <p>We have experts which give you best  guidence about your problems.</p><br><br>
+                        <a href="bookorder.html">Book Now
+                        </a>
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="column2"> <br>
+                    <h2>  Early Pregnecy Checkup</h2><br>
+                    <p>Good services and full <br> care of baby and mother.
+                        Good News! </p><br><br><br>
+                    <a href="bookorder.html">Book</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column3"> <br>
+                     <h2>General Checkup</h2>
+                     <p>Have the detail information about our health and advices given by specilist. </p>
+                     <a href="bookorder.html">Registered</a>
+            </div>
+        </div><br>
+        <P><a href="project.html">Visit Our Site</a></P>
+    </div>
+    <section>
+        <h3>ABOUT US:</h3>
+    <p>
+        The (Pharm)Easy Way To Book Lab Tests Online
+        Book Diagnostics Lab Test Online. Get doorstep sample collection
+        Lab Test Booking Made Simple
+        One of the most popular services PharmEasy offers is diagnostic testing. People need to book pathological tests for many reasons. But before booking, they wonder if the diagnostic centre can be trusted to produce accurate results and how long they might have to wait in a queue to get tested.
+        To bypass these hassles, PharmEasy has set up an extensive network of reputed pathological laboratories in India. One such lab is Thyrocare. With Thyrocare on board, we can give you access to a wide network of diagnostic laboratories.We also offer a home collection of samples as well. Bid adieu to anxious days of wondering where to book diagnostic tests and embrace the PharmEasy way.
+    </p>
+    </section>
+
+        
+
+                
+
+   
+    
+</body>
+</html>

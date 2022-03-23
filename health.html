@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+        html {
+            box-sizing: border-box;
+        }
+        h1{
+            color: deeppink;
+        }
+        .title{
+            color: forestgreen;
+        }
+        .about-section {
+            padding: 20px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+        .container {
+            padding: 0 16px;
+        }
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+        .column {
+            float: left;
+            width: 30%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+        .button:hover {
+            background-color: #555;
+        }
+        .row{
+            display: flex;
+        }
+        .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    background-color: yellowgreen;
+    text-align: center;
+}
+.nav-links ul li a{
+    color: rgb(15, 2, 2);
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links ul li::after{
+    content:"" ;
+    width: 0% ;
+    height: 2px;
+    margin: auto;
+    background-color: chartreuse;
+    display: block;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+     width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <div class="nav-links">
+        <ul>
+            <li><a href="order.html">ORDER MEDICINES</a></li>
+            <li><a href="lab.html">LAB TEST</a></li>
+            <li><a href="health.html">HEALTHCARE MEDICINES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <div class="about-section">
+        <h1>About  Health </h1>
+        <p>To give your health a helping hand, you can order a wide variety of health supplements including <br> Health drinks, Nutritional powder, Nutrition tablets/capsules.</p>    
+    </div> 
+   
+        <div class="row">
+        <div class="column">
+            <div class="card">
+            <img src="images/images (15).jpg" alt="" style="width:100%">
+            <div class="container">
+                <h2>Covid Essentials</h2>
+                <p class="title">Proper Treatment</p>
+                <p>Safety of our owns and proper guidenace for patient .</p>
+                <p>Vaccination too.</p>
+                <p><button class="button">Order Now</button></p>
+            </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="images/images (16).jpg" alt="" style="width:100%">
+              <div class="container">
+                <h2>Fitness & Suppliments</h2>
+                <p class="title">Fitness & Supplements Products</p>
+                <p>Immunity Boosters: Ayurvedic and modern nutritional supplements often help boost immunity for both children and adults.</p>
+                <p>LivEasy, Ever Herb, Calcimax, Alvizia, Zandu, Neuherbs and HealthVit.</p>
+                <p><button class="button">Buy Now</button></p>
+              </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+              <img src="images/images (17).jpg" alt="" style="width:100%">
+              <div class="container">
+                <h2>Mother and Baby Cares</h2>
+                <p class="title">Baby Accessories</p>
+                <p>Hygiene products are good and healthy for everyone.Need to have in daily life.</p>
+                <p>Healthy Mummy,Healthy baby!</p>
+                <p><button class="button">Shop Now</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h2>Some More Products </h2>
+            <div class="row">
+            <div>
+             <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fcf.shopee.ph%2Ffile%2Ff810e686c13742d41ce89fc8f103a727&imgrefurl=https%3A%2F%2Fshopee.ph%2FBIO-HEALTH-PRODUCTS*-i.217549458.7834503491&tbnid=O7NUViGYt8j4tM&vet=12ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMyg2egQIARBL..i&docid=Usip9ySK7ucwUM&w=640&h=640&itg=1&q=health%20product%20image&ved=2ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMyg2egQIARBL"> <img src="images/h6.jpg" alt="bio-health"></a>
+           </div>
+           <div>
+             <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-eu.ssl-images-amazon.com%2Fimages%2FG%2F31%2Fimg21%2FHPC%2FCoop%2FDabur-440x330.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.in%2FHealth-Care%2Fb%3Fie%3DUTF8%26node%3D1374494031&tbnid=Zn1pL3wATAM-UM&vet=12ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMygEegUIARDGAQ..i&docid=R1qhJPt7mJuEnM&w=440&h=330&itg=1&q=health%20product%20image&ved=2ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMygEegUIARDGAQ"><img src="images/h2.jpg" alt="dabur product"></a>
+           </div> 
+           <div>
+               <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fhmsdesk.com%2Fadmin%2Fassets%2Fpressrealese%2F121%2F5c9cf1792d22d.jpg&imgrefurl=https%3A%2F%2Fhmsdesk.com%2Fpr%2Fadvantages-of-buying-healthcare-products-online-121&tbnid=TqzYmoiwm1GE1M&vet=12ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMygIegUIARDOAQ..i&docid=wkcxffoq-EbwVM&w=740&h=420&itg=1&q=health%20product%20image&ved=2ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMygIegUIARDOAQ"><img src="images/h3.jpg" alt="cosmatic"></a>
+           </div>
+           <div>
+               <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-eu.ssl-images-amazon.com%2Fimages%2FG%2F31%2Fimg21%2FHPC%2FPD%2FStore%2FCoop%2FHimalaya_440x330.jpg&imgrefurl=https%3A%2F%2Fwww.amazon.in%2FHealth-Care%2Fb%3Fie%3DUTF8%26node%3D1374494031&tbnid=hFKcSFMX2xWRGM&vet=12ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMyhCegQIARBl..i&docid=R1qhJPt7mJuEnM&w=440&h=330&itg=1&q=health%20product%20image&ved=2ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMyhCegQIARBl"><img src="images/h7.jpg" alt="himalayas"></a>
+           </div>
+           <div>
+               <a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages-eu.ssl-images-amazon.com%2Fimages%2FG%2F31%2Fimg21%2FHPC%2FCoop%2FKapiva-Ayur-440x330.png&imgrefurl=https%3A%2F%2Fwww.amazon.in%2FHealth-Care%2Fb%3Fie%3DUTF8%26node%3D1374494031&tbnid=JYtn1c9miAUEPM&vet=12ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMygNegUIARDYAQ..i&docid=R1qhJPt7mJuEnM&w=440&h=330&itg=1&q=health%20product%20image&ved=2ahUKEwiUsfXP9bj1AhVVl-YKHbWmB2wQMygNegUIARDYAQ"><img src="images/h8.jpg" alt="ayurvedic"></a>
+           </div>
+
+    
+</body>
+</html>
